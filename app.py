@@ -12,3 +12,4 @@ class Exercise1:
 
 person1 = Exercise1('Sravani', 38)
 person1.display_info()
+
