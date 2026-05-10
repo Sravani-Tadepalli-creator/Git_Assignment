@@ -18,14 +18,10 @@ class Exercise2:
         self.length = length
         self.breadth = breadth
 
-    def area(self):
-        return self.length * self.breadth
-
     def perimeter(self):
-        return (2*(self.length + self.breadth))
+        return  (2*(self.length + self.breadth )) 
 
 rectangle = Exercise2(20, 10)
-print(f'Area is {rectangle.area()}')
 print(f'Perimeter is {rectangle.perimeter()}')
 
 
