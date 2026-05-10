@@ -27,3 +27,15 @@ class Exercise2:
 rectangle = Exercise2(20, 10)
 print(f'Area is {rectangle.area()}')
 print(f'Perimeter is {rectangle.perimeter()}')
+
+
+class Exercise3:
+    def __init__(self, account_holder, balance):
+        self.account_holder = account_holder
+        self.balance = balance
+
+    def display_balance(self):
+        print(f'Balance is {self.balance}')
+
+sravani_account = Exercise3('Sravani', 1000)
+sravani_account.display_balance()
